@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Domine&family=Montserrat&family=Noto+Serif&family=Open+Sans&family=Pacifico&family=Righteous&family=Roboto&family=Shantell+Sans:wght@300&family=Space+Grotesk&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Mini Word</title>
+</head>
+<body>
+  <h1>Mini Word Simulator</h1>
+  <h2 id="text">Type anything</h2> 
+  <section>
+  
+    <input  id="color" type="color">
+  
+    <input id="size"  type="number" value="50" min="0" step="1" >
+
+    <select class="listbox" id="font" placeholder="choose a font">
+    
+    <option  value="Monserrat">Monserrat</option>
+    <option  value="Roboto">Roboto</option>
+    <option  value="Ubuntu">Ubuntu</option>
+    <option  value="Shantell Sans">Shantell Sans</option>
+    <option  value="Bebas Neue">Bebas Neue</option>
+    <option  value="Dancing Script">Dancing Script</option>
+    <option  value="Domine">Domine</option>
+    <option  value="Noto Serif">Noto Serif</option>
+    <option  value="Open Sans">Open Sans</option>
+    <option  value="Pacifico">Pacifico</option>
+    <option  value="Righteous">Righteous</option>
+    <option  value="Space Grotesk">Space Grotesk</option>
+    
+  </select>
+  
+  </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

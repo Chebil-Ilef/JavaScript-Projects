@@ -1,0 +1,36 @@
+body{
+    background-color: #f0e0f6;
+}
+.container {
+    margin-top: 150px;
+  }
+  
+  .card {
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px #c990dc;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  .btn-primary {
+    background-color: #cea2ea;
+    border-color: #9d7db1;
+  }
+  
+  .btn-primary:hover {
+    background-color: #c990dc;
+    border-color: #d3a2eb;
+  }
+  
+  img{
+    width: 50%;
+    height: 50%;
+  }
+ 

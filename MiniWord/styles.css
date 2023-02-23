@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: #ECF2FF;
+}
+
+section{
+   margin: 5% 20% auto 30%;
+}
+
+h1{
+   font-size: 50px; ;
+   
+    color:#9f7ac6;
+    text-decoration: double;
+    font-family: "Shantell Sans";
+}
+
+h2{
+    font-size: 50px;
+
+}
+
+#color{
+    width: 30%;
+    height: 2rem;
+    margin:2%;
+    background-color: #fff;
+    initial-value: #FFB8E5;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+#size{
+    width: 10%;
+    height: 1.7rem;
+}
+
+.listbox{
+    margin:2%;
+    width: 30%;
+    height: 2rem;
+}
+
